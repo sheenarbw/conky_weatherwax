@@ -3,5 +3,6 @@
 ## Wait 20 seconds
 sleep 20
 
-## Run conky
-conky
+## Run both conky instances
+conky -c /home/sheena/.config/conky/conky.conf &
+conky -c /home/sheena/.config/conky/conky_left.conf &
